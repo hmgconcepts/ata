@@ -1,0 +1,52 @@
+{
+  "name": "The Ata v2 - Enterprise Agribusiness Cold Chain & FinTech Platform",
+  "short_name": "Ata v2",
+  "description": "Enterprise multi-page cold chain logistics, Quick-Pay factoring, warehouse receipt storage, and escrow produce platform for Nigeria.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF9F5",
+  "theme_color": "#166534",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "food", "logistics", "finance", "shopping"],
+  "shortcuts": [
+    {
+      "name": "Marketplace Catalog",
+      "url": "./marketplace.html",
+      "description": "Browse fresh harvest direct from verified Nigerian farmers"
+    },
+    {
+      "name": "Live Cold Telemetry",
+      "url": "./cold-chain.html",
+      "description": "Monitor active cold chain transport and IoT sensors"
+    },
+    {
+      "name": "Pay-as-You-Store Hubs",
+      "url": "./cold-storage.html",
+      "description": "Book spot cold storage space at regional hubs"
+    },
+    {
+      "name": "Quick-Pay Factoring",
+      "url": "./fintech.html",
+      "description": "Instant 24-hour invoice advances and crop loans"
+    },
+    {
+      "name": "National Price Index",
+      "url": "./price-index.html",
+      "description": "Real-time crop benchmark prices across Lagos, Kano, Oyo"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ata-v2-enterprise-platform",
+  "version": "2.0.0",
+  "description": "The Ata v2 - Multi-Page Enterprise Agribusiness Cold Chain, Quick-Pay FinTech & Escrow Platform (PWA)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 3000",
+    "dev": "npx serve -s . -l 3000",
+    "build": "echo 'Multi-page static PWA ready for Vercel, Netlify, or GitHub Pages deployment.'"
+  },
+  "keywords": [
+    "pwa",
+    "multi-page",
+    "cold-chain",
+    "agribusiness",
+    "escrow",
+    "quick-pay-factoring",
+    "warehouse-receipts",
+    "price-index",
+    "nigeria"
+  ],
+  "author": "Ata Platform Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

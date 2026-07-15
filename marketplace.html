@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Fresh Harvest Direct Marketplace — The Ata v2</title>
+
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+  <meta name="theme-color" content="#166534" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+
+  <div id="offline-banner" class="offline-banner">
+    ⚠️ Offline Mode Active — Remote Hub Data Cached Locally
+  </div>
+
+  <div id="app-root">
+    <header class="app-header">
+      <div class="header-top-row">
+        <a href="index.html" class="brand-section">
+          <div class="brand-logo">A</div>
+          <div>
+            <div class="brand-title">The Ata <span class="v2-badge">v2.0 Enterprise</span></div>
+            <div class="brand-tagline">Freshness Without Frontiers</div>
+          </div>
+        </a>
+
+        <div class="header-actions">
+          <button id="pwa-install-btn" class="pwa-install-btn" style="display:none;">📲 Install App</button>
+          <div class="role-badge" id="role-switcher-badge">👤 Role: Agribusiness (Buyer) ▼</div>
+        </div>
+      </div>
+
+      <nav class="page-nav-subbar">
+        <a href="index.html" class="nav-link">🏠 Home</a>
+        <a href="marketplace.html" class="nav-link active">🛒 Marketplace</a>
+        <a href="cold-chain.html" class="nav-link">🚚 Cold Telemetry</a>
+        <a href="cold-storage.html" class="nav-link">📦 Cold Storage Hubs</a>
+        <a href="orders.html" class="nav-link">📋 Orders</a>
+        <a href="fintech.html" class="nav-link">💳 Quick-Pay FinTech</a>
+        <a href="price-index.html" class="nav-link">📈 Price Index</a>
+        <a href="cooperative.html" class="nav-link">👥 Co-ops</a>
+        <a href="sustainability.html" class="nav-link">🌱 ESG Impact</a>
+        <a href="enterprise.html" class="nav-link">⚡ Enterprise Suite</a>
+        <a href="docs.html" class="nav-link">📖 Docs & Guide</a>
+      </nav>
+    </header>
+
+    <main class="page-content">
+      <div class="section-title">
+        <span>Fresh Harvest Produce Catalog</span>
+        <span style="font-size:12px; color:var(--color-text-sub);">Direct Farm Procurement</span>
+      </div>
+
+      <!-- Search & Filters -->
+      <div class="card-box" style="margin-bottom:16px;">
+        <div class="form-group" style="margin:0;">
+          <input type="text" id="search-input" class="form-input" placeholder="🔍 Search produce, farmer name, or state (e.g. Kaduna, Tomatoes, Benue)..." />
+        </div>
+      </div>
+
+      <div id="marketplace-catalog-grid" class="grid-3"></div>
+    </main>
+
+    <nav class="bottom-nav">
+      <a href="index.html" class="bottom-nav-item"><span class="bottom-nav-icon">🏠</span><span>Home</span></a>
+      <a href="marketplace.html" class="bottom-nav-item active"><span class="bottom-nav-icon">🛒</span><span>Market</span></a>
+      <a href="cold-chain.html" class="bottom-nav-item"><span class="bottom-nav-icon">🚚</span><span>Track</span></a>
+      <a href="fintech.html" class="bottom-nav-item"><span class="bottom-nav-icon">💳</span><span>FinTech</span></a>
+      <a href="profile.html" class="bottom-nav-item"><span class="bottom-nav-icon">👤</span><span>Profile</span></a>
+    </nav>
+  </div>
+
+  <div id="modal-overlay" class="modal-overlay">
+    <div class="modal-content"><div id="modal-content-body"></div></div>
+  </div>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
